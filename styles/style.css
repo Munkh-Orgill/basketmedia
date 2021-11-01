@@ -11,9 +11,14 @@ body{
     font-family: Roboto, Arial, sans-serif;
 }
 .nav{
+    top: 0; right: 0; left: 0;
     background: #051c2d;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
     height: 55px;
 }
+
 label.logo{
     padding: 0 100px;
     line-height: 55px;
@@ -39,17 +44,18 @@ nav ul li a:hover{
 }
 nav ul ul{
     position: absolute;
+    left: 0;
     top: 55px;
+    width: 200px;
+    background:#051c2d;
     display: none;
 }
 nav ul li:hover > ul{
     display: block;
 }
 nav ul ul li{
-    width: 200px;
-    float: none;
-    display: list-item;
-    position: relative;
+    width: 100%;
+    border-top: 1px solid #0000;
 }
 .checkbtn{
     font-size: 30px;
@@ -72,22 +78,26 @@ nav ul ul li{
 
 @media (max-width:858px) {
     .checkbtn{
-        display: block;
+        display: initial;
     }
     nav ul{
-        position: fixed;
+        position: absolute;
         width: 100%;
         height: 100vh;
         background: #051c2d;
         top: 55px;
-        left: inherit;
+        left: 0; right: 0;
         text-align: center;
         transition: all .5s;
     }
     nav ul li{
-        display: block;
+        width: 100%;
     }
-    #check:checked ~ nav ul{
+    nav ul ul li{
+        position: relative;
+        width: 100%; 
+    }
+    #check:checked ~ nav{
         left: 0;
     }
     
