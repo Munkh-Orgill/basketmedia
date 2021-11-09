@@ -4,84 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <title>Basketmedia</title>
+    <script src="menu.js" async defer></script>
 </head>
 <body>
-    <header class="header">
-        
-        <nav class="nav">
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="bi bi-list"></i>
-            </label>
-            <label class="logo"><a href="home.html"><img src="/image/logo.png" alt="logo" width="40" height="40"></a></label>
-            <ul class="nav-list">
-                <li><a href="home.html">Нүүр</a></li>
-                <li><a href="#">Мэдээ <i class="bi bi-caret-down-fill"></i></a>
-                    <ul>
-                        <li><a href="#">Сүүлийн мэдээ</a></li>
-                        <li><a href="#">Солилцоо наймаа</a></li>
-                        <li><a href="#">Түүхэн статистик</a></li>
-                    </ul>
-                </li>
-                <li><a href="/views/teams.html">Багууд</a></li>
-                <li><a href="/views/Stats.html">Статистик</a></li>
-                <li><a href="/views/Standings.html">Байрлал</a></li>
-                <li><a href="/views/Schedule.html">Хуваарь</a></li>
-                <li><a href="/views/Login.html">Нэвтрэх</a></li>
-            </ul>
-        </nav>
+    <header class="header">  
+            <div class="top-head">
+                <div class="logo">
+                    <label><a href="/home.html"><img src="/image/logo.png" alt="logo"></a></label>
+                </div>
+                <div class="menu-btn">
+                    <span>
+                        <i class="bi bi-list"></i>
+                    </span>
+                </div>
+                <div class="close-btn">
+                    <span>
+                        <i class="bi bi-x-lg"></i>
+                    </span>
+                </div>
+            </div>
+            <nav class="nav" id="nav">
+                <ul class="nav-list">
+                    <li><a href="/home.html">Нүүр</a></li>
+                    <li><a href="#">Мэдээ</a>
+                        <!-- <ul>
+                            <li><a href="#">Сүүлийн мэдээ</a></li>
+                            <li><a href="#">Солилцоо наймаа</a></li>
+                            <li><a href="#">Түүхэн статистик</a></li>
+                        </ul> -->
+                    </li>
+                    <li><a href="/views/teams.html">Багууд</a></li>
+                    <li><a href="/views/Stats.html">Статистик</a></li>
+                    <li><a href="/views/Standings.html">Байрлал</a></li>
+                    <li><a href="/views/Schedule.html">Хуваарь</a></li>
+                    <li class="login"><a href="/views/Login.html">Нэвтрэх</a></li>
+                </ul>
+            </nav>
     </header>
     <main class="main">
-        <section class="last-news">
-            <figure>
-                <img src="../image/nba75.jpeg" alt="Nba" style="height:20rem;">
-            </figure>
-            <h2><a href="#">NBA 75-н жилийн ойдоо зориулж...</a></h2> 
-            <ul>
-                <li>
-                    <figure>
-                        <img src="../image/paul.jpg" alt="Chris Paul" style="height: 10rem;">
-                        <h2><a href="#">Лигийн түүхэндэх анхны тоглогч Крис Пол...</a></h2>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="../image/luka.jpg" alt="Luka Doncic" style="height: 10rem;">
-                        <h2><a href="#">Оскар Робертсон-c хойших анхны тоглогч Лука Дончич...</a></h2>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="../image/green.jpg" alt="Jerald Green" style="height: 10rem;">
-                        <h2><a href="#">Жералд Грийн Хьстон Рокэтс багийн туслах...</a></h2>
-                    </figure>
-                </li>
-            </ul> 
-        </section>
+        <div class="home-news">
+            <section class="last-news">
+                <figure>
+                    <img src="../image/home-news.png" alt="Nba">
+                </figure>
+                <h2 class="news-title"><a href="#">CBSSport-с гаргасан NBA-н шилдэг 15 шидэгч.</a></h2>
+                <section class="side-news"> 
+                    <ul>
+                        <li>
+                            <figure>
+                                <img src="../image/tucker.png" alt="Talen Horthon-Tucker">
+                            </figure>
+                            <h2><a href="#">Талэн Хортон-Такер...</a></h2>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../image/silver.png" alt="Adam Silver">
+                            </figure>
+                            <h2><a href="#">NBA хамгийн багадаа 30 хоног завсарлахаар боллоо...</a></h2>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../image/ben wallace.png" alt="Ben Wallace">
+                            </figure>
+                            <h2><a href="#">Лигийн түүхэндэх цор ганц тоглогч...</a></h2>
+                        </li>
+                    </ul>
+                </section> 
+            </section>
+        </div>
         <section class="trade-news">
             <h2>Солилцоо наймаа</h2>
             <ul>
                 <li>
                     <figure>
-                        <img src="../image/gacol.jpg" alt="Marc Gacol" style="height: 10rem;">
-                        <h2><a href="#">Марк Газол солилцоонд орж...</a></h2>
+                        <img src="../image/jordan.png" alt="DiAndre Jordan">
                     </figure> 
+                    <h2><a href="#">ДиАндрэ Жордан 1 жилийн 2,6 саяын гэрээгээр...</a></h2>
                 </li>
                 <li>
                     <figure>
-                        <img src="../image/jordan.jpg" alt="DeAndre Jordan" style="height: 10rem;">
-                        <h2><a href="#">ДиАндрэ Жордан 1 жилийн 2,6 сая...</a></h2>
+                        <img src="../image/anthony.png" alt="Carmelo Anthony">
                     </figure>
+                    <h2><a href="#">Кармело Энтони Лос Анжелес Лэйкэрс...</a></h2>
                 </li>
                 <li>
                     <figure>
-                        <img src="../image/anthony.jpeg" alt="Carmelo Anthony" style="height: 10rem;">
-                        <h2><a href="#">Кармело Энтони Лос Анжелес Лэйкэрс...</a></h2>
+                        <img src="../image/gacol.png" alt="Marc Gacol">                    
                     </figure>
+                    <h2><a href="#">Марк Газол солилцоонд орж...</a></h2>
                 </li>
             </ul> 
         </section>
@@ -90,21 +104,21 @@
             <ul>
                 <li>
                     <figure>
-                        <img src="../image/stats-news1.jpg" alt="Түүхэн статик" style="height: 10rem;">
-                        <h2><a href="#">Улирлын нээлтийн тоглолтуудад...</a></h2>
+                        <img src="../image/curry.png" alt="Түүхэн статик">
                     </figure> 
+                    <h2><a href="#">Улирлын нээлтийн тоглолтуудад...</a></h2>
                 </li>
                 <li>
                     <figure>
-                        <img src="../image/stats-news2.jpeg" alt="Түүхэн статик" style="height: 10rem;">
-                        <h2><a href="#">Лигийн түүхэнд карьертаа...</a></h2>
+                        <img src="../image/durant.png" alt="Түүхэн статик">
                     </figure> 
+                    <h2><a href="#">Лигийн түүхэнд карьертаа...</a></h2>
                 </li>
                 <li>
                     <figure>
-                        <img src="../image/stats-news3.jpg" alt="Түүхэн статик" style="height: 10rem;">
-                        <h2><a href="#">Лигийн түүхэндэх хамгийн залуу</a></h2>
+                        <img src="../image/simmons.png" alt="Түүхэн статик">
                     </figure> 
+                    <h2><a href="#">Лигийн түүхэндэх хамгийн залуу</a></h2>
                 </li>
             </ul>
         </section> 
@@ -119,10 +133,10 @@
         </section>
         <section class="footer-contact">
             <h2>Холбоо барих</h2>
-            <!-- <a title="facebook" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <a title="facebook" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
                 <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-              </svg></a> -->
-              <i class="fab fa-facebook"></i>
+              </svg></a>
+              <!-- <i class="fab fa-facebook"></i> -->
             <a title="messenger" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-messenger" viewBox="0 0 16 16">
                 <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.639.639 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.639.639 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76zm5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
               </svg></a>   
