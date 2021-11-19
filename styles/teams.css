@@ -1,0 +1,47 @@
+
+main{
+    padding: 6rem;
+    background-color: #F4F4F4;
+}
+main h2{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 22px;
+}
+.container{
+    border: solid;
+    border-style: none;
+    box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
+}
+.teams{
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.teams h3{
+    font-size: 18px;
+}
+.team{
+    display: flex;
+    align-items: center;
+}
+.team a{
+    color: #000;
+    margin-left: 1rem;
+}
+
+.division-name{
+    padding: 2rem;
+}
+
+@media (max-width:1000px) {
+    .teams{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width:700px) {
+    .teams{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}

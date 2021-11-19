@@ -13,7 +13,6 @@
 }
 body{
     font-family: Roboto, Arial, sans-serif;
-    /* background: #E5E5E5; */
 }
 .logo{
     padding-left: 50px;
@@ -24,7 +23,7 @@ body{
     align-items: center;
     margin: 0 auto;
     background: var(--default-primary-color);
-    padding: 10px 20px;
+    padding: 5px;
 }
 
 .top-head .bi{
@@ -44,9 +43,7 @@ body{
 .show-nav{
     height: auto;
 }
-nav ul{
-    
-}
+
 .nav ul li{
     text-align: center;
     display: block;
@@ -60,21 +57,7 @@ nav ul{
 .nav ul li a:hover{
     color: gray;  
 }
-nav ul ul{
-    
-}
-nav ul li:hover > ul{
-    
-}
-nav ul ul li{
-    
-}
-.checkbtn{
-    
-}
-#check{
-    
-}
+
 
 @media (min-width: 800px){
     .menu-btn, .close-btn{
@@ -101,52 +84,136 @@ nav ul ul li{
     .nav ul li{
         padding-left: 40px;
     }
+    .footer{
+        display: flex;
+    }
+    .footer-about, .footer-contact{
+        flex: 1;
+    }
+    .footer-contact{
+        padding-left: 200px;
+    }
     
+}
+@media (min-width:768px) {
+    .home-news{
+        display: flex;
+    }
 }
 
 .main{
-    color: black;
     font-size: 16px;
     padding-top: 4rem;
     margin-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     box-sizing: border-box;
 }
 
 .home-news{
     
 }
+.home-news img{
+    min-width: auto;
+}
 .home-news h2{
     font-size: 22px;
 }
+.home-news h2  a{
+    color: #000;
+}
 
-.last-news{
-    margin-top: 2rem;
-    display: flex;   
-    margin-left: 5rem;
-    margin-right: 5rem;
+.last-news{   
+    padding: 15px 30px;
 }
-.side-news{
-    padding-left: 10%;   
-    flex-wrap: wrap;
-}
-.side-news h2{
+.last-news p{
+    font-weight: 300;
     
 }
+.side-news h3{
+    font-size: 18px;
+}
+.side-news{
+    justify-content: center;
+    padding-left: 30px;
+}
+.side-news p{
+    font-weight: 300;
+}
 
+.side-news ul li a{
+    color: #000;
+}
 .news-title{
-    position: absolute;
-    left: 5%;
-    top: 88%;
+    
 }
 
 .trade-news{
-    
+    padding: 30px 10px;
+    padding-top: 100px;
+}
+.trade-news-items{
+    border: solid;
+    border-style: none;
+    box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
+    margin-bottom: 2rem;
+}
+.trade-news > h2{
+    padding:15px 0 15px 30px;
+}
+.trade-news h2{
+    font-size: 20px;
+}
+.trade-news h3{
+    font-size: 16px;
+}
+.trade-news ul li{
+    display:flex;
+    align-items: center;
+}
+.trade-news ul li a{
+    color: #000;
+}
+.news-desc{
+    padding-left: 1rem;
 }
 
-.footer{
+.stats-news{
+    padding: 30px 10px;
+    padding-top: 100px;
+}
+.stats-news > h2{
+    padding:15px 0 15px 30px;   
+}
+.stats-news h2{
+    font-size: 20px;
+}
+.stats-news h3{
+    font-size: 16px;
+}
+.stats-news ul li{
+    display: flex;
+    align-items: center;
+}
+.stats-news ul li a{
+    color: #000;
+}
+.stat-news-items{
+    border: solid;
+    border-style: none;
+    box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
+    margin-bottom: 2rem;
+}
+
+footer{
     background: var(--default-primary-color);
     color:white;
-    padding: 30px;
+    padding: 40px;
+}
+footer > p{
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 40px;
 }
 .footer h2{
     padding: 10px 0;
@@ -156,13 +223,12 @@ nav ul ul li{
     line-height: 1.3;
 }
 
-.footer-about.footer-contact{
-    margin: 0 20px;
+.footer-about, .footer-contact{
+    margin: 0px 40px;
 }
-.footer > p{
-    text-align: center;
-    opacity: 0.8;
-    margin-top: 20px;
+.socil-icons{
+    font-size: 22px;
+    padding-top: 30px;
 }
 .footer-contact a{
     justify-content: space-between;
