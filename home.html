@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <title>Basketmedia</title>
     <script src="menu.js" async defer></script>
-    <!-- <script type="module" src="/component.js"></script> -->
+    <script type="module" src="/side-news.js"></script>
 </head>
 <body>
     <header class="header">  
@@ -58,30 +58,28 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi modi? Vitae fugiat velit excepturi?</p>
                 </div>
             </section>
-                <section class="side-news"> 
-                    <ul>
+            <section class="side-news"> 
+                <side-news newsUrl="https://api.jsonbin.io/b/61a234810ddbee6f8b12ca08">
+                    
+                </side-news>
+
+
+                    <!-- <ul> 
                         <li>
-                            <figure>
-                                <img src="../image/tucker.png" alt="Talen Horthon-Tucker">
-                            </figure>
-                            <h3><a href="#">Талэн Хортон-Такер гэмтэл авчээ</a></h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae?</p>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="../image/silver.png" alt="Adam Silver">
-                            </figure>
-                            <h3><a href="#">NBA хамгийн багадаа 30 хоног завсарлахаар боллоо</a></h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, vel.</p>
+                            <news-component img="/image/tucker.png" title="Талэн Хортон-Такер гэмтэл авчээ" 
+                            body="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae?"
+                            ></news-component>
                         </li>
                         <li>
                             <figure>
                                 <img src="../image/ben wallace.png" alt="Ben Wallace">
                             </figure>
-                            <h3><a href="#">Лигийн түүхэндэх цор ганц тоглогч</a></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est.</p>
+                            <div class="sub-article">
+                                <h3><a href="#">Лигийн түүхэндэх цор ганц тоглогч</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est.</p>
+                            </div>
                         </li>
-                    </ul>
+                    </ul> -->
                 </section> 
         </div>
         <section class="trade-news">

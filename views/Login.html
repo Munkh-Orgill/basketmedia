@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/login.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
     <script src="menu.js" async defer></script>
@@ -46,17 +47,53 @@
         </nav>
     </header>
     <main>
-        <div id="container">
-            <div id="formcontainer">
-                <p id="text">Login to your Account</p> <input id="email" type="email" type="tel" placeholder="Email / Phone"> <input id="password" type="password" placeholder="Password"> <input id="check" type="checkbox">
-                <p id="text1">Remember Me</p> <a id="forget" href="#">Forget Password ?</a> <button id="login" type="submit">Log In</button>
-                <hr id="hrline1">
-                <p id="text2">or login with</p>
-                <hr id="hrline2"> <button id="facebook"><img id="facebook1" src="https://image.flaticon.com/icons/svg/174/174848.svg">Facebook</button> <button id="google">
-                <img id="google1" src="https://image.flaticon.com/icons/svg/281/281764.svg">Google</button>
-                <p id="text3">Not a Member?</p> <a id="signup" href="#">Signup Now</a>
+        <section class="container">
+            <h2>Хэрэглэгч нэвтрэх</h2>
+            <form>
+                <div class="input-field">
+                    <input type="text" required>
+                    <label>Нэвтрэх нэр</label>
+                </div>
+                <div class="input-field">
+                    <input class="pswrd" type="password" required>
+                    <span class="show">Харуулах</span>
+                    <label>Нууц үг</label>
+                </div>
+                <div class="button">
+                    <div class="inner">
+                        <button>НЭВТРЭХ</button>
+                    </div>
+                </div>
+            </form>
+            <div class="auth">Эсвэл нэвтрэнэ үү</div>
+            <div class="links">
+                <div class="facebook">
+                    <a href="#"><i class="bi bi-facebook"><span>Facebook</span></i></a>
+                </div>
+                <div class="google">
+                    <a href="#"><i class="bi bi-google"><span>Google</span></i></a>
+                </div>
             </div>
-        </div>
+            <div class="signup">
+                Бүртгэлгүй хэрэглэгч? <a href="#">Бүртгүүлэх</a>
+            </div>
+        </section>
+        <script>
+            let input = document.querySelector('.pswrd');
+            let show = document.querySelector('.show');
+            show.addEventListener('click', active);
+            function active(){
+                if(input.type === "password"){
+                    input.type = "text";
+                    show.style.color = "#051c2d";
+                    show.textContent = "Хаах";
+                }
+                else{
+                    input.type = "password"
+                    show.textContent = "Харуулах";
+                }
+            }
+        </script>
     </main>
     <footer>
         <div class="footer">

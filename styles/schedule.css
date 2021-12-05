@@ -1,0 +1,32 @@
+
+main{
+    padding: 6rem;
+    background-color: #F4F4F4;
+}
+main h2{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 22px;
+}
+.schedule{
+    border: solid;
+    border-style: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
+    
+}
+.matches{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 0.8rem;
+}
+
+.matches div{
+    padding: 1.5rem;
+}
+.matches h3{
+    margin-bottom: 1.5rem;
+    font-size: 18px;
+}
+
+

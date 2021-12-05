@@ -1,0 +1,20 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"); */
+
+
+main{
+    padding: 6rem;
+    background-color: #F4F4F4;
+}
+main h4{
+    padding-left: 2rem;
+    padding-top: 2rem;
+    font-size: 22px;
+}
+.standings{
+    border: solid;
+    border-style: none;
+    box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
+}
+.table{
+    align-items: center;
+}

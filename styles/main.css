@@ -111,7 +111,8 @@ body{
 }
 
 .home-news{
-    
+    margin-left: auto;
+    margin-right: auto;
 }
 .home-news img{
     min-width: auto;
@@ -124,39 +125,63 @@ body{
 }
 
 .last-news{   
-    padding: 15px 30px;
+    padding: 20px 60px;
 }
 .last-news p{
     font-weight: 300;
-    
+    padding-top: 0.5rem;
+}
+.last-news img{
+    width: 80%;
+    height: auto;
+}
+.article{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .side-news h3{
     font-size: 18px;
 }
 .side-news{
     justify-content: center;
-    padding-left: 30px;
+    padding-top: 1rem;
+}
+.side-news ul li news-component{
+    display: flex;   
+    align-items: center;
+    padding-top: 2rem;
 }
 .side-news p{
     font-weight: 300;
 }
-
+.side-news img{
+    width: 80%;
+    height: auto;
+}
 .side-news ul li a{
     color: #000;
 }
-.news-title{
-    
+.sub-article{
+    padding-left: 0.5rem;
+}
+.sub-article p{
+    padding-top: 0.5rem;
 }
 
 .trade-news{
     padding: 30px 10px;
     padding-top: 100px;
 }
+
 .trade-news-items{
     border: solid;
     border-style: none;
     box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
     margin-bottom: 2rem;
+}
+.trade-news-items img{
+    width: 90%;
+    height: auto;
 }
 .trade-news > h2{
     padding:15px 0 15px 30px;
@@ -203,6 +228,10 @@ body{
     border-style: none;
     box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
     margin-bottom: 2rem;
+}
+.stat-news-items img{
+    width: 90%;
+    height: auto;
 }
 
 footer{
