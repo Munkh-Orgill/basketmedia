@@ -12,14 +12,14 @@
     "categories": [],
     "screenshots": [
       {
-        "src": "/images/screenshot-1.png",
+        "src": "/image/logo512x512.svg",
         "sizes": "1280x800",
-        "type": "image/png"
+        "type": "image/svg"
       },
       {
-        "src": "/images/screenshot-2.png",
+        "src": "/image/logo512x512.svg",
         "sizes": "750x1334",
-        "type": "image/png"
+        "type": "image/svg"
       }
     ],
     "icons": [],
