@@ -5,9 +5,9 @@
     "display": "standalone",
     "name": "basketmedia",
     "orientation": "any",
-    "scope": "/",
+    "scope": "https://munkh-orgill.github.io/basketmedia/",
     "short_name": "basketmedia",
-    "start_url": "/",
+    "start_url": "/https://munkh-orgill.github.io/basketmedia",
     "theme_color": "#ffffff",
     "categories": [],
     "screenshots": [
@@ -22,5 +22,6 @@
         "type": "image/png"
       }
     ],
+    "icons": [],
     "shortcuts": []
   }
