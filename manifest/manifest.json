@@ -1,27 +1,26 @@
 {
-    "background_color": "#ffffff",
-    "description": "basketmedia",
-    "dir": "ltr",
-    "display": "standalone",
-    "name": "basketmedia",
-    "orientation": "any",
-    "scope": "https://munkh-orgill.github.io/basketmedia/",
-    "short_name": "basketmedia",
-    "start_url": "/https://munkh-orgill.github.io/basketmedia",
-    "theme_color": "#ffffff",
-    "categories": [],
-    "screenshots": [
-      {
-        "src": "/image/logo512x512.svg",
-        "sizes": "1280x800",
-        "type": "image/svg"
-      },
-      {
-        "src": "/image/logo512x512.svg",
-        "sizes": "750x1334",
-        "type": "image/svg"
-      }
-    ],
-    "icons": [],
-    "shortcuts": []
-  }
+  "background_color": "#ffffff",
+  "description": "basketmedia",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "basketmedia",
+  "orientation": "any",
+  "scope": "https://munkh-orgill.github.io/basketmedia/",
+  "short_name": "basketmedia",
+  "start_url": "/https://munkh-orgill.github.io/basketmedia",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [
+    {
+      "src": "/image/logo512x512.png",
+      "sizes": "1280x800",
+      "type": "image/png"
+    },
+    {
+      "src": "/image/logo512x512.png",
+      "sizes": "750x1334",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": []
+}
