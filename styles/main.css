@@ -146,7 +146,7 @@ body{
     justify-content: center;
     padding-top: 1rem;
 }
-.side-news ul li news-component{
+.side-news ul li{
     display: flex;   
     align-items: center;
     padding-top: 2rem;

@@ -10,6 +10,8 @@
     <link rel="manifest" href="manifest/manifest.json">
     <title>Basketmedia</title>
     <script src="menu.js" async defer></script>
+    <script src="route.js" async></script>
+    <!-- <script type="module" src="main.js" async></script> -->
     <!-- <script type="module" src="/side-news.js"></script> -->
 </head>
 <body>
@@ -48,7 +50,6 @@
             </nav>
     </header>
     <main class="main">
-        <!-- <component-test></component-test> -->
         <div class="home-news">
             <section class="last-news">
                 <figure>
@@ -59,17 +60,28 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, quasi modi? Vitae fugiat velit excepturi?</p>
                 </div>
             </section>
-            <section class="side-news"> 
-                <side-news newsUrl="https://api.jsonbin.io/b/61a234810ddbee6f8b12ca08">
+            <div id="myApp"></div>
+            <!-- <section class="side-news"> -->
+                <!-- <ul>
+                    <li class="render"></li>
+                </ul> -->
+                <!-- <side-news newsUrl="https://api.jsonbin.io/b/61a234810ddbee6f8b12ca08">
                     
-                </side-news>
-
-
-                    <!-- <ul> 
-                        <li>
+                </side-news> -->
+                    <!-- <ul id="myApp">  -->
+                        <!-- <li>
                             <news-component img="/image/tucker.png" title="Талэн Хортон-Такер гэмтэл авчээ" 
                             body="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non, beatae?"
                             ></news-component>
+                        </li>
+                        <li>
+                            <figure>
+                                <img src="../image/ben wallace.png" alt="Kevin Durant">
+                            </figure>
+                            <div class="sub-article">
+                                <h3><a href="#">Нетсийн түүхэн дахь анхны тоглогч Кевин Дюрант</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est.</p>
+                            </div>
                         </li>
                         <li>
                             <figure>
@@ -80,8 +92,17 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est.</p>
                             </div>
                         </li>
-                    </ul> -->
-            </section> 
+                        <li>
+                            <figure>
+                                <img src="../image/ben wallace.png" alt="Ben Wallace">
+                            </figure>
+                            <div class="sub-article">
+                                <h3><a href="#">Лигийн түүхэндэх цор ганц тоглогч</a></h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, est.</p>
+                            </div>
+                        </li> -->
+                    <!-- </ul>
+            </section>  -->
         </div>
         <section class="trade-news">
             <h2>Солилцоо наймаа</h2>
