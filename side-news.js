@@ -18,7 +18,6 @@ class SideNews extends HTMLElement {
           nwsc.img = nws.img;
           nwsc.title = nws.title;
           nwsc.body = nws.body;
-          console.log("tttt", nwsc.title);
 
           const li = document.createElement("li");
           li.appendChild(nwsc);

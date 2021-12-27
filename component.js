@@ -9,9 +9,8 @@ export default class newsComponent extends HTMLElement {
 
   }
   connectedCallback() {
-    this.innerHTML = `
-    <figure>
-        <img src='${this.img} alt="image">
+    this.innerHTML =`<figure>
+        <img src=${this.img} alt="image">
     </figure>
     <div class="sub-article">
         <h3><a href="#">${this.title}</a></h3>

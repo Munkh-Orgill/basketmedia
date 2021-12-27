@@ -139,30 +139,35 @@ body{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.side-news h3{
-    font-size: 18px;
-}
-.side-news{
+side-news{
     justify-content: center;
     padding-top: 1rem;
 }
-.side-news ul li{
-    display: flex;   
+side-news ul li{  
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 0.5rem;
 }
-.side-news p{
+side-news p{
     font-weight: 300;
 }
-.side-news img{
+side-news img{
     width: 80%;
     height: auto;
 }
-.side-news ul li a{
+
+news-component img{
+    width: 40%;
+    height: auto;
+}
+side-news ul li{
+    display: flex;
+}
+side-news ul li a{
     color: #000;
 }
 .sub-article{
     padding-left: 0.5rem;
+    font-size: 14px;
 }
 .sub-article p{
     padding-top: 0.5rem;
