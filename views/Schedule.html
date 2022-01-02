@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="/styles/schedule.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="menu.js" async defer></script>
     <title>Хуваарь</title>
 </head>
@@ -48,24 +51,79 @@
     </header>
     <main>
         <section class="schedule">
-            <h2>Тоглолтын хуваарь</h2>
-            <div class="matches">
-                <div class="date">
-                    <h3>БЯ 07/11</h3>
+            <div class="container">
+                <h3>Тоглолтын хуваарь</h3>
+                <div class="row">
+                  <div class="col-md-4 games-schedule">
+                      <div class="well">
+                          <div class="games-schedule-title">
+                              <div class="row">
+                                  <div class="col-md-12">
+                                      <h5>Өнөөдрийн тоглолт</h5>
+                                  </div>
+                              </div>
+                          </div>                
+                          <div class="games-schedule-items">
+                              <div class="row games-team">
+                                  <div class="col-md-5">
+                                      <img src="https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg" alt="Brooklyn Nets Logo">
+                                      <span>Нетс</span>
+                                  </div>
+                                  <div class="col-md-2">
+                                      <h4 class="img-circle">VS</h4>
+                                  </div>
+                                  <div class="col-md-5">
+                                      <img src="https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg" alt="Chicago Bulls Logo">
+                                      <span>Буллз</span>
+                                  </div>
+                              </div>
+                              <div class="row games-info">
+                                  <div class="col-md-12">
+                                      <p><span class="glyphicon glyphicon-play-circle"></span> 19 December, 2021 (<small>09:30 GMT</small>)</p>
+                                      <p class="games-dash"></p>
+                                      <p><small>Crypto.com Arena
+                                        Los Angeles, CA</small></p>
+                                  </div>
+                              </div>
+                          </div>  
+                          <div class="games-schedule-items">
+                              <div class="row games-team">
+                                  <div class="col-md-5">
+                                    <img src="https://cdn.nba.com/logos/nba/1610612739/global/L/logo.svg" alt="Cleveland Cavaliers Logo">
+                                      <span>Кавальерс</span>
+                                  </div>
+                                  <div class="col-md-2">
+                                      <h4 class="img-circle">VS</h4>
+                                  </div>
+                                  <div class="col-md-5">
+                                    <img src="https://cdn.nba.com/logos/nba/1610612765/global/L/logo.svg" alt="Detroit Pistons Logo">
+                                      <span>Пистонс</span>
+                                  </div>
+                              </div>
+                              <div class="row games-info">
+                                  <div class="col-md-12">
+                                      <p><span class="glyphicon glyphicon-play-circle"></span> 19 December, 2021 (11:30 GMT</small>)</p>
+                                      <p class="games-dash"></p>
+                                      <p><small>Little Caesars Arena
+                                        Detroit, MI</small></p>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="games-schedule-footer">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <p class="text-left">2022</p>
+                                  </div>
+                                  <div class="col-md-6">
+                                      <p class="text-right">&COPY; Basketmedia</p>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
                 </div>
-                <div class="schedule-teams">
-                    <h3>Багууд</h3>
-                    <div class="teams-vs">
-                        <h5>Бостон Сэлтикс</h5>
-                        <h5>Брүүклин Нетс</h5>
-                    </div>
-                    
-                </div>
-                <div class="schedule-time">
-                    <h3>Цаг</h3>
-                    <span>07:30</span>
-                </div>
-            </div>
+              
+              </div>
         </section>
     </main>
     <footer>

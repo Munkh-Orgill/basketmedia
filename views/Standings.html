@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="/styles/standings.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
     <script src="menu.js" async defer></script>
     <title>Байрлал</title>
 </head>
@@ -48,282 +48,120 @@
       </nav>
   </header>
   <main>
-      <section class="standings">
-            <div class="table-east">
-                <h4>Өрнөд бүс</h4>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Баг</th>
-                        <th scope="col">Хожил</th>
-                        <th scope="col">Хожигдол</th>
-                        <th scope="col">Хожлын хувь</th>
-                        <th scope="col">Streak</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">6</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">7</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">8</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">9</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">10</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">11</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">12</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">13</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">14</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">15</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                    </tbody>
+    <section class="content-info">
+        <h2>Дорнод бүс</h2>
+      <div class="container paddings-mini">
+          <div class="row">
+              <div class="col-lg-12">
+                  <table class="table-striped table-responsive table-hover result-point">
+                      <thead class="point-table-head">
+                          <tr>
+                              <th class="text-left">No</th>
+                              <th class="text-left">Баг</th>
+                              <th class="text-center">Хожил</th>
+                              <th class="text-center">Хожигдол</th>
+                              <th class="text-center">Хожлын хувь</th>
+                              <th class="text-center">Сүүлийн 10</th>
+                              <th class="text-center">Streak</th>
+                          </tr>
+                      </thead>
+                      <tbody class="text-center">
+                          <tr>
+                              <td class="text-left number">1 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://cdn.nba.com/logos/nba/1610612751/global/L/logo.svg" alt="Nets"><span>Брүүклин Нетс</span> </td>
+                              <td>38</td>
+                              <td>26</td>
+                              <td>9</td>
+                              <td>3</td>
+                              <td>73</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">2 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://cdn.nba.com/logos/nba/1610612741/global/L/logo.svg" alt="Bulls"><span>Чикаго Буллс </span> </td>
+                              <td>38</td>
+                              <td>24</td>
+                              <td>7</td>
+                              <td>7</td>
+                              <td>83</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">3 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/argentina.png" alt="Argentina"><span>Argentina</span> </td>
+                              <td>38</td>
+                              <td>22</td>
+                              <td>9</td>
+                              <td>7</td>
+                              <td>71</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">4<i class="fa fa-caret-down" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/japan.png" alt="Japan"><span>Japan</span> </td>
+                              <td>38</td>
+                              <td>20</td>
+                              <td>10</td>
+                              <td>8</td>
+                              <td>62</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">5 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/flag.png" alt="Senegal"><span>Senegal</span> </td>
+                              <td>38</td>
+                              <td>19</td>
+                              <td>7</td>
+                              <td>12</td>
+                              <td>58</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">6<i class="fa fa-caret-down" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/poland.png" alt="Poland"><span>Poland</span> </td>
+                              <td>38</td>
+                              <td>18</td>
+                              <td>8</td>
+                              <td>12</td>
+                              <td>52</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">7<i class="fa fa-caret-down" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/russian-federation.png" alt="Russia"><span>Russia</span> </td>
+                              <td>38</td>
+                              <td>18</td>
+                              <td>6</td>
+                              <td>14</td>
+                              <td>54</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">8<i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/iran.png" alt="Iran"><span>Iran</span> </td>
+                              <td>38</td>
+                              <td>12</td>
+                              <td>11</td>
+                              <td>15</td>
+                              <td>48</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">9 <i class="fa fa-circle" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/spain.png" alt="Spain"><span>Spain</span> </td>
+                              <td>38</td>
+                              <td>26</td>
+                              <td>9</td>
+                              <td>3</td>
+                              <td>73</td>
+                          </tr>
+                          <tr>
+                              <td class="text-left number">10<i class="fa fa-circle" aria-hidden="true"></i></td>
+                              <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/france.png" alt="France"><span>France</span> </td>
+                              <td>38</td>
+                              <td>24</td>
+                              <td>7</td>
+                              <td>7</td>
+                              <td>83</td>
+                          </tr>
+                      </tbody>
                   </table>
-            </div>
-            <div class="table-west">
-                <h4>Дорнод бүс</h4>
-                <table class="table">
-                    <thead>
-                      <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Баг</th>
-                        <th scope="col">Хожил</th>
-                        <th scope="col">Хожигдол</th>
-                        <th scope="col">Хожлын хувь</th>
-                        <th scope="col">Streak</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row">1</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">2</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">3</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">4</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">5</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">6</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">7</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">8</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">9</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">10</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">11</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">12</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">13</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">14</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                      <tr>
-                        <th scope="row">15</th>
-                        <td>Брүүклин Нетс</td>
-                        <td>49</td>
-                        <td>23</td>
-                        <td>0.681</td>
-                        <td>W2</td>
-                      </tr>
-                    </tbody>
-                  </table>
-            </div>
-        </section>
+              </div>
+          </div>
+      </div>
+  </section>
     </main>
     <footer>
       <div class="footer">

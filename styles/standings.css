@@ -10,11 +10,78 @@ main h4{
     padding-top: 2rem;
     font-size: 22px;
 }
-.standings{
+/* .standings{
     border: solid;
     border-style: none;
     box-shadow: 0 0 10px 0 hsl(0deg 0% 82% / 50%);
 }
 .table{
     align-items: center;
+} */
+
+.content-info {
+    background: #f9f9f9;
+    /* padding: 40px 0; */
+    background-size: cover !important;
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    position: relative;
+    /* padding-bottom: 100px */
+}
+.content-info h2{
+    /* padding-left: 1rem; */
+    padding-bottom: 1rem;
+    font-size: 22px;
+}
+table {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dedede
+}
+
+table thead tr th {
+    padding: 20px;
+    border: 1px solid #dedede;
+    color: #000
+}
+
+table.table-striped tbody tr:nth-of-type(odd) {
+    background: #f9f9f9
+}
+
+table.result-point tr td.number {
+    width: 100px;
+    position: relative
+}
+
+.text-left {
+    text-align: left;
+}
+
+table tr td {
+    padding: 10px 20px;
+    border: 1px solid #dedede
+}
+
+table.result-point tr td .fa.fa-caret-up {
+    color: green
+}
+
+table.result-point tr td .fa {
+    font-size: 20px;
+    position: absolute;
+    right: 20px
+}
+
+table tr td {
+    padding: 10px 40px;
+    border: 1px solid #dedede
+}
+
+table tr td img {
+    max-width: 32px;
+    float: left;
+    margin-right: 11px;
+    margin-top: 1px;
+    border: 1px solid #dedede
 }
